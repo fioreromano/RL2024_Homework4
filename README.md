@@ -8,7 +8,7 @@ ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py
 ```
 in a second terminal :
 ```
-ros2 run rqt_image_view_ rqt_image_view_
+ros2 run rqt_image_view rqt_image_view
 ```
 ### 2. Setting Up Static TF Goals and Navigation
 - **Run:** 
@@ -18,7 +18,7 @@ ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py
 ```
 in a second terminal :
 ```
-ros2 run rl_fra2mo_description fra2mo_explore.launch.py
+ros2 launch rl_fra2mo_description fra2mo_explore.launch.py
 ```
 in a third terminal :
 ```
@@ -73,4 +73,9 @@ ros2 run rl_fra2mo_description ARUCO_waypoints.py
 in order to visualize the tf publication run in a terminal: 
 ```
 ros2 run tf2_ros tf2_echo world aruco_marker 
+```
+
+Visualize on Rviz
+```
+ros2 launch rl_fra2mo_description display_fra2mo.launch.py
 ```
