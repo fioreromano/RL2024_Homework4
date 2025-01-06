@@ -66,10 +66,10 @@ ros2 run nav2_map_server map_saver_cli -f map
 
 4️⃣ Use vision for navigation:
 
-    1. 🎯 **Send** the robot near obstacle 9.
-    2. 🚦 **Detect** the ArUco marker (#1151) using the robot's camera and retrieve its pose.
-    3. 🌍 **Return** the robot to its initial position.
-    4. 📌 **Publish** the marker's pose as a TF frame.
+- 🎯 **Send** the robot near obstacle 9.
+- 🚦 **Detect** the ArUco marker (#1151) using the robot's camera and retrieve its pose.
+- 🌍 **Return** the robot to its initial position.
+- 📌 **Publish** the marker's pose as a TF frame.
 
 ``` bash
 ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py 
