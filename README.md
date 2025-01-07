@@ -15,9 +15,9 @@ The key objectives include:
 1️⃣ Launch the Gazebo simulation and spawn the mobile robot in the specified position:
 
 - 📍 **Initial coordinates of the robot:**
-  - \( x = -3 \, m \), \( y = 5 \, m \), \( Y = -90^\circ \) (relative to the map frame).
+  - \( x = -3 \, m \), \( y = 5 \, m \), \( Y = -90^° \) (relative to the map frame).
 - 🛠️ **World modifications:**
-  - Move obstacle 9 to \( x = -3 \, m \), \( y = -3.3 \, m \), \( z = 0.1 \, m \), \( Y = 90^\circ \).
+  - Move obstacle 9 to \( x = -3 \, m \), \( y = -3.3 \, m \), \( z = 0.1 \, m \), \( Y = 90°\).
 
 ```bash
 ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py 
